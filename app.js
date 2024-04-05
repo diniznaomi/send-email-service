@@ -39,7 +39,6 @@ app.post('/send-email', (req, res) => {
 
 
 // Iniciar o servidor
-// run: node app.js
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
